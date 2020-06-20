@@ -1,0 +1,15 @@
+## 20200620
+
+1. 创建一个简单的spring项目
+
+2. 使用**curl**命令测试
+`curl http://localhost:8080/hello`
+
+3. 使用maven打包命令
+3.1 首先在mac安装zsh环境下source配置文件
+`source ~/.bash_profile`
+3.2 使用maven打包命令打包,-Dmaven.test.skip跳过测试文件
+`mvn clean package -Dmaven.test.skip`
+
+4. 使用java -jar命令执行jar包
+`java -jar demo0620-0.0.1-SNAPSHOT.jar`
