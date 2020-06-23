@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * SpringBootApplication:标注一个主程序类，说明是一个SpringBoot应用
+ */
 @SpringBootApplication
 @RestController
 public class Demo0620Application {
@@ -15,6 +18,6 @@ public class Demo0620Application {
 
 	@RequestMapping("/hello")
 	public String hello(){
-		return "Hello Spring2";
+		return "Hello Spring";
 	}
 }
